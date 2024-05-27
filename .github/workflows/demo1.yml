@@ -11,7 +11,7 @@ on:
   push:
     branches:
       - main # main
-      - 'dev-*' # de-new dev-this-sis-new
+      - 'dev*' # de-new dev-this-sis-new
       - 'feat/**' #feat/new feat/new/button
       # developer-1 would not trigger an workflow
     paths:
